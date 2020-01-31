@@ -4,7 +4,7 @@
   min-width: 400px;
   margin: 5px auto;
 }
-.post-header{
+.post-header {
   display: flex;
   align-items: center;
 }
@@ -22,8 +22,12 @@
   width: 100%;
 }
 
+.postContainer {
+  width: 30vh;
+}
+
 .post-image {
-  width: 100%;
+  max-width: 100%;
 }
 
 .post-header {
