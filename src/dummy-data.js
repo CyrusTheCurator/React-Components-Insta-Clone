@@ -60,20 +60,20 @@ const dummyData = [
     timestamp: "July 15th 2017, 03:12:09 pm",
     comments: [
       {
-        username: "twitch",
-        text: "Epic Street Fighter action here in Las Vegas at #EVO2017!"
+        username: "Not_A_Robot",
+        text: "Zuckerberg is not an android!"
       },
       {
-        username: "michaelmarzetta",
-        text: "Omg that match was crazy"
+        username: "spaghettiDeliveryman",
+        text: "I love the facebook!"
       },
       {
-        username: "themexican_leprechaun",
-        text: "What a setup"
+        username: "OB1",
+        text: "Here he is"
       },
       {
-        username: "dennis_futbol",
-        text: "It that injustice"
+        username: "TechnocracyAndClimateChange",
+        text: "WOW IT IS ZUCK"
       }
     ]
   },
@@ -91,16 +91,16 @@ const dummyData = [
         text: "Jeff Bezos is gettin real sweaty!"
       },
       {
-        username: "michaelmarzetta",
-        text: "Omg that match was crazy"
+        username: "personWhoChats",
+        text: "Whatsapp is great!"
       },
       {
         username: "themexican_leprechaun",
-        text: "What a setup"
+        text: "I'm going to oder 1000 pop tarts on prime"
       },
       {
         username: "dennis_futbol",
-        text: "It that injustice"
+        text: "I can't believe this is real!"
       }
     ]
   },
@@ -115,19 +115,19 @@ const dummyData = [
     comments: [
       {
         username: "twitch",
-        text: "Epic Street Fighter action here in Las Vegas at #EVO2017!"
+        text: "Look at Atlas go! What a good robot"
       },
       {
         username: "michaelmarzetta",
-        text: "Omg that match was crazy"
+        text: "Omg that robot is crazy"
       },
       {
         username: "themexican_leprechaun",
-        text: "What a setup"
+        text: "I want a spot as a pet so bad!"
       },
       {
         username: "dennis_futbol",
-        text: "It that injustice"
+        text: "Our new overlord"
       }
     ]
   }

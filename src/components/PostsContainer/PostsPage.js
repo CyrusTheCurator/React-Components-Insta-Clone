@@ -7,10 +7,12 @@ import "./Posts.css";
 const PostsPage = props => {
   //console.log({props.dummyData})
 
-  return (
-    <div className="posts-container-wrapper">
-      <Post post={props.dummyData[0]} />
-    </div>
-  );
+  //const postMapper = arr => {};
+
+  const postMaker = props.dummyData.map(post => {
+    return <Post post={post} />;
+  });
+
+  return <div className="posts-container-wrapper">{postMaker}</div>;
 };
 export default PostsPage;
