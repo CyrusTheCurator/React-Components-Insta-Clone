@@ -43,14 +43,8 @@ const Post = props => {
       </div>
       <LikeSection
         likes={likes}
-        setLikes={setLikes}
         likeClick={likeClick}
-        didClick={didClick}
-        toggleDidClick={toggleDidClick}
         currentIcon={currentIcon}
-        setCurrentIcon={setCurrentIcon}
-        clickedHeart={clickedHeart}
-        unclickedHeart={unclickedHeart}
       />
       <CommentSection
         postId={props.post.imageUrl}

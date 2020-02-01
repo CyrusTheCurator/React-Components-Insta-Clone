@@ -10,9 +10,13 @@ const CommentSection = props => {
   console.log(commentsArray);
   return (
     <div>
-      {commentsArray.map(comment => {
+      {commentsArray.map((comment, index) => {
         return (
-          <Comment commentText={comment.text} username={comment.username} />
+          <Comment
+            key={index}
+            commentText={comment.text}
+            username={comment.username}
+          />
         );
       })}
       <CommentInput />
